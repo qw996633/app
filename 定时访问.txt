@@ -1,0 +1,6 @@
+http://127.0.0.1/caiji/chat.php
+http://127.0.0.1/agent/robot.php?type=xy28
+http://127.0.0.1/agent/robot.php?type=jnd28
+http://127.0.0.1/caiji/index_woa.php
+
+http://127.0.0.1/caiji/index_woa.php   5-6ÃëË¢ÐÂ
